@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3 Popup (Combined)</title>
+</head>
+<body>
+	<script type="text/javascript">
+		alert('Welcome ! (This is Alert)');
+		var again = true;
+
+		while( again ) {
+			var name = prompt('Enter your Name (This is Prompt with variable name)');
+
+			alert('Welcome ' + name);
+
+			again = confirm('Try Again (This is Confirm with variable again)');
+		}
+	</script>
+</body>
+</html>
