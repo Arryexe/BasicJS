@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conditional Statement</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var tryAgain = true;
+
+		while (tryAgain) {
+			var number = prompt("Enter Number");
+
+			if ( number % 2 === 0) {
+				alert('This Number is an EVEN number');
+			} else if( number % 2 === 1) {
+				alert('This Number is an ODD number');
+			} else {
+				alert(number + ' is Not a Number');
+			}
+
+			tryAgain = confirm('Try Again ???');
+		}
+
+		alert('Proggram Stopped');
+	</script>
+</body>
+</html>
