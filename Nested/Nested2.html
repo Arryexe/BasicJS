@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var s = '';
+		var row = 10;
+
+		for (var i = 0; i < row; i++) {
+			for (var j = 10; j >= i; j--) {
+				s += ' ';
+			}
+			for (var k = 0; k <= i; k++) {
+				s += '*';
+			}
+			s += '\n';
+		}
+
+		for (var l = 0; l <= i; l++) {
+			for (var m = 0; m <= l ;m++) {
+				s += ' ';
+			}
+			for (var n = 10; n >= l ;n--) {
+				s += '*';
+			}
+			s += '\n';
+
+		}
+
+
+		console.log(s);
+
+	</script>
+</body>
+</html>
