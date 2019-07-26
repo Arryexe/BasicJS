@@ -2,7 +2,6 @@ alert('Permainan Menebak Angka dari 0 - 10 \n\n Anda hanya mempunyai 3 kesempata
 
 // Random Number 0-10
 var number = Math.floor(Math.random() * 11);
-console.log(number);
 
 // Rules
 var chance = true;
