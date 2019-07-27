@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var s = '';
+		var row = 10;
+
+		for (var a = 0; a <= row; a++) {
+			for (var b = 0; b <= a; b++) {
+				s += ' ';
+			}
+			for (var c = 10; c >= a; c--) {
+				s += '*';
+			}
+			for (var d = 8; d >= c; d--) {
+				s += '*';
+			}
+
+			s += '\n';
+		}
+
+		console.log(s);
+	</script>
+</body>
+</html>
